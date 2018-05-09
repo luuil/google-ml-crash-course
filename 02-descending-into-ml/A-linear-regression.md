@@ -1,17 +1,19 @@
 ## 深入了解机器学习 (Descending into ML)：线性回归
 
+预计用时：6 分钟
+
 人们[早就知晓][konwn]，相比凉爽的天气，蟋蟀在较为炎热的天气里鸣叫更为频繁。数十年来，专业和业余昆虫学者已将每分钟的鸣叫声和温度方面的数据编入目录。Ruth 阿姨将她喜爱的蟋蟀数据库作为生日礼物送给您，并邀请您自己利用该数据库训练一个模型，从而预测鸣叫声与温度的关系。
 
 首先建议您将数据绘制成图表，了解下数据的分布情况：
 
-![crickets][crickets1]
+![crickets][p-crickets1]
 
 图 1. 每分钟的鸣叫声与温度（摄氏度）的关系。
 
 毫无疑问，此曲线图表明温度随着鸣叫声次数的增加而上升。鸣叫声与温度之间的关系是线性关系吗？
 是的，您可以绘制一条直线来近似地表示这种关系，如下所示：
 
-![crickets][crickets2]
+![crickets][p-crickets2]
 
 图 2. 线性关系。
 
@@ -50,7 +52,7 @@ y' = b + w1*x1 + w2*x2 + w3*x3
 ```
 
 [konwn]: https://wikipedia.org/wiki/Dolbear's_law
-[crickets1]: ../image/02-A-crickets-1.png
-[crickets2]: ../image/02-A-crickets-2.png
+[p-crickets1]: ../image/02-A-crickets-1.png
+[p-crickets2]: ../image/02-A-crickets-2.png
 [labels]: ../01-framing/A-ml-terminology.md#标签
 [features]: ../01-framing/A-ml-terminology.md#特征
