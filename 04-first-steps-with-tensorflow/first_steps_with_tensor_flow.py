@@ -54,7 +54,7 @@ pd.options.display.float_format = '{:.1f}'.format
 
 """接下来，我们将加载数据集。"""
 
-california_housing_dataframe = pd.read_csv("./california_housing_train.csv", sep=",")
+california_housing_dataframe = pd.read_csv("../data/california_housing_train.csv", sep=",")
 
 """我们将对数据进行随机化处理，以确保不会出现任何病态排序结果（可能会损害随机梯度下降法的效果）。此外，我们会将 `median_house_value` 调整为以千为单位，这样，模型就能够以常用范围内的学习速率较为轻松地学习这些数据。"""
 

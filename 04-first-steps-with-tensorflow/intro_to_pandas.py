@@ -61,7 +61,7 @@ pd.DataFrame({ 'City name': city_names, 'Population': population })
 
 """但是在大多数情况下，您需要将整个文件加载到 `DataFrame` 中。下面的示例加载了一个包含加利福尼亚州住房数据的文件。请运行以下单元格以加载数据，并创建特征定义："""
 
-california_housing_dataframe = pd.read_csv("./california_housing_train.csv", sep=",")
+california_housing_dataframe = pd.read_csv("../data/california_housing_train.csv", sep=",")
 print(california_housing_dataframe.describe())
 
 """上面的示例使用 `DataFrame.describe` 来显示关于 `DataFrame` 的有趣统计信息。另一个实用函数是 `DataFrame.head`，它显示 `DataFrame` 的前几个记录："""
