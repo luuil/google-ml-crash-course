@@ -37,7 +37,3 @@
 
 - [Encoding nonlinearity](A-encoding-nonlinearity.md)
 - [Crossing one-hot vectors](B-crossing-one-hot-vectors.md)
-
-[p-fea-1]: ../image/08-A-feature-1.png
-[p-fea-2]: ../image/08-A-feature-2.png
-[p-fea-3]: ../image/08-A-feature-3.png
